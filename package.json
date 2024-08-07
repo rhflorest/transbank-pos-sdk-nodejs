@@ -1,6 +1,6 @@
 {
-  "name": "transbank-pos-sdk",
-  "version": "3.0.3",
+  "name": "transbank-pos-sdk-rhflorest",
+  "version": "3.0.2",
   "description": "SDK Web para POS Integrado en Node.js",
   "main": "index.js",
   "scripts": {
@@ -28,5 +28,17 @@
     "@babel/plugin-transform-runtime": "^7.11.5",
     "@babel/preset-env": "^7.11.5",
     "jest": "^26.4.2"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhflorest/transbank-pos-sdk-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhflorest/transbank-pos-sdk-nodejs/issues"
+  },
+  "homepage": "https://github.com/rhflorest/transbank-pos-sdk-nodejs#readme"
 }
